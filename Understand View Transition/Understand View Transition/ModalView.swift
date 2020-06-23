@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct ModalView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
-        Text("Hello Modal !")
+        NavigationView {
+            Text("Hello Modal !").navigationBarTitle(Text("Modal"), displayMode: .inline)
+                .navigationBarItems(leading: Button(action: {
+                    self.presentationMode.wrappedValue.dismiss()
+                }) {
+                    Text("Close")
+                })
+        }
+        
     }
 }
 

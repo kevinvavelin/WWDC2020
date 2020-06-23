@@ -11,13 +11,21 @@ struct ContentView: View {
     
     @State var isPresented = false
     var body: some View {
-        Button(action: {
-            self.isPresented.toggle()
-        }) {
-            Text("Show modal").padding()
-        }.sheet(isPresented: $isPresented) {
-            ModalView()
+        NavigationView {
+            VStack {
+                Button(action: {
+                    self.isPresented.toggle()
+                }) {
+                    Text("Show modal").padding()
+                }.sheet(isPresented: $isPresented) {
+                    ModalView()
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Show detail view")
+                }
+            }.navigationTitle("Home")
         }
+        
     }
 }
 

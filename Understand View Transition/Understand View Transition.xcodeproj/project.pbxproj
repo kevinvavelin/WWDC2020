@@ -12,6 +12,7 @@
 		DEE1446E24A24DD500F8B15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1446D24A24DD500F8B15A /* Assets.xcassets */; };
 		DEE1447124A24DD500F8B15A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1447024A24DD500F8B15A /* Preview Assets.xcassets */; };
 		DEE1447924A24EF600F8B15A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1447824A24EF600F8B15A /* ModalView.swift */; };
+		DEE1447B24A2513B00F8B15A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1447A24A2513B00F8B15A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DEE1447024A24DD500F8B15A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE1447224A24DD500F8B15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE1447824A24EF600F8B15A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		DEE1447A24A2513B00F8B15A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				DEE1446924A24DD400F8B15A /* Understand_View_TransitionApp.swift */,
 				DEE1446B24A24DD400F8B15A /* ContentView.swift */,
 				DEE1447824A24EF600F8B15A /* ModalView.swift */,
+				DEE1447A24A2513B00F8B15A /* DetailView.swift */,
 				DEE1446D24A24DD500F8B15A /* Assets.xcassets */,
 				DEE1447224A24DD500F8B15A /* Info.plist */,
 				DEE1446F24A24DD500F8B15A /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE1447924A24EF600F8B15A /* ModalView.swift in Sources */,
+				DEE1447B24A2513B00F8B15A /* DetailView.swift in Sources */,
 				DEE1446C24A24DD400F8B15A /* ContentView.swift in Sources */,
 				DEE1446A24A24DD400F8B15A /* Understand_View_TransitionApp.swift in Sources */,
 			);
