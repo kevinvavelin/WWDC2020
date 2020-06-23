@@ -11,13 +11,13 @@ import SwiftUI
 struct Discovering_SwiftUI_and_ControlsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TextCatalogView()
         }
     }
 }
 
 struct Discovering_SwiftUI_and_ControlsApp_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TextCatalogView()
     }
 }

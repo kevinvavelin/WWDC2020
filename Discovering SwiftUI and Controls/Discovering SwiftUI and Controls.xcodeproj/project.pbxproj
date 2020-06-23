@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DEE143A024A205AD00F8B15A /* Discovering_SwiftUI_and_ControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1439F24A205AD00F8B15A /* Discovering_SwiftUI_and_ControlsApp.swift */; };
-		DEE143A224A205AD00F8B15A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE143A124A205AD00F8B15A /* ContentView.swift */; };
 		DEE143A424A205AE00F8B15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE143A324A205AE00F8B15A /* Assets.xcassets */; };
 		DEE143A724A205AE00F8B15A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE143A624A205AE00F8B15A /* Preview Assets.xcassets */; };
 		DEE143B224A205AE00F8B15A /* Discovering_SwiftUI_and_ControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE143B124A205AE00F8B15A /* Discovering_SwiftUI_and_ControlsTests.swift */; };
 		DEE143BD24A205AE00F8B15A /* Discovering_SwiftUI_and_ControlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE143BC24A205AE00F8B15A /* Discovering_SwiftUI_and_ControlsUITests.swift */; };
+		DEE143CF24A2122200F8B15A /* TextCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE143CE24A2122200F8B15A /* TextCatalogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		DEE1439C24A205AD00F8B15A /* Discovering SwiftUI and Controls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discovering SwiftUI and Controls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE1439F24A205AD00F8B15A /* Discovering_SwiftUI_and_ControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discovering_SwiftUI_and_ControlsApp.swift; sourceTree = "<group>"; };
-		DEE143A124A205AD00F8B15A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE143A324A205AE00F8B15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE143A624A205AE00F8B15A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE143A824A205AE00F8B15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		DEE143B824A205AE00F8B15A /* Discovering SwiftUI and ControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discovering SwiftUI and ControlsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE143BC24A205AE00F8B15A /* Discovering_SwiftUI_and_ControlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discovering_SwiftUI_and_ControlsUITests.swift; sourceTree = "<group>"; };
 		DEE143BE24A205AE00F8B15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE143CE24A2122200F8B15A /* TextCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCatalogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DEE1439F24A205AD00F8B15A /* Discovering_SwiftUI_and_ControlsApp.swift */,
-				DEE143A124A205AD00F8B15A /* ContentView.swift */,
+				DEE143CE24A2122200F8B15A /* TextCatalogView.swift */,
 				DEE143A324A205AE00F8B15A /* Assets.xcassets */,
 				DEE143A824A205AE00F8B15A /* Info.plist */,
 				DEE143A524A205AE00F8B15A /* Preview Content */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE143A224A205AD00F8B15A /* ContentView.swift in Sources */,
 				DEE143A024A205AD00F8B15A /* Discovering_SwiftUI_and_ControlsApp.swift in Sources */,
+				DEE143CF24A2122200F8B15A /* TextCatalogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
