@@ -11,7 +11,7 @@ import SwiftUI
 struct EphemhelpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuestionView()
         }
     }
 }
