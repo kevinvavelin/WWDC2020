@@ -7,42 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEE144A324A27F7200F8B15A /* EphemhelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE144A224A27F7200F8B15A /* EphemhelpApp.swift */; };
-		DEE144A724A27F7400F8B15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE144A624A27F7400F8B15A /* Assets.xcassets */; };
-		DEE144AA24A27F7400F8B15A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE144A924A27F7400F8B15A /* Preview Assets.xcassets */; };
-		DEE144B224A293E500F8B15A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE144B124A293E500F8B15A /* QuestionView.swift */; };
-		DEE144D424A29B3600F8B15A /* QuestionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE144D324A29B3600F8B15A /* QuestionDetailView.swift */; };
-		DEE144D624A29CA100F8B15A /* TagsChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE144D524A29CA100F8B15A /* TagsChipsView.swift */; };
+		DE82FC1624A3F4B800F46611 /* DiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82FC1524A3F4B800F46611 /* DiaryApp.swift */; };
+		DE82FC1A24A3F4B900F46611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE82FC1924A3F4B900F46611 /* Assets.xcassets */; };
+		DE82FC1D24A3F4B900F46611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE82FC1C24A3F4B900F46611 /* Preview Assets.xcassets */; };
+		DE82FC2524A3F4F400F46611 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82FC2424A3F4F400F46611 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		DEE144F024A2B1EF00F8B15A /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		DEE1449F24A27F7200F8B15A /* Ephemhelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ephemhelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE144A224A27F7200F8B15A /* EphemhelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EphemhelpApp.swift; sourceTree = "<group>"; };
-		DEE144A624A27F7400F8B15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEE144A924A27F7400F8B15A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEE144AB24A27F7400F8B15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEE144B124A293E500F8B15A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		DEE144D324A29B3600F8B15A /* QuestionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailView.swift; sourceTree = "<group>"; };
-		DEE144D524A29CA100F8B15A /* TagsChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsChipsView.swift; sourceTree = "<group>"; };
-		DEE144DD24A2B1ED00F8B15A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		DEE144DF24A2B1ED00F8B15A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DE82FC1224A3F4B800F46611 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE82FC1524A3F4B800F46611 /* DiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryApp.swift; sourceTree = "<group>"; };
+		DE82FC1924A3F4B900F46611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE82FC1C24A3F4B900F46611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE82FC1E24A3F4B900F46611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE82FC2424A3F4F400F46611 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEE1449C24A27F7200F8B15A /* Frameworks */ = {
+		DE82FC0F24A3F4B800F46611 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,90 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEE1449624A27F7200F8B15A = {
+		DE82FC0924A3F4B800F46611 = {
 			isa = PBXGroup;
 			children = (
-				DEE144A124A27F7200F8B15A /* Ephemhelp */,
-				DEE144DC24A2B1ED00F8B15A /* Frameworks */,
-				DEE144A024A27F7200F8B15A /* Products */,
+				DE82FC1424A3F4B800F46611 /* Diary */,
+				DE82FC1324A3F4B800F46611 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEE144A024A27F7200F8B15A /* Products */ = {
+		DE82FC1324A3F4B800F46611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEE1449F24A27F7200F8B15A /* Ephemhelp.app */,
+				DE82FC1224A3F4B800F46611 /* Diary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEE144A124A27F7200F8B15A /* Ephemhelp */ = {
+		DE82FC1424A3F4B800F46611 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
-				DEE144A224A27F7200F8B15A /* EphemhelpApp.swift */,
-				DEE144B124A293E500F8B15A /* QuestionView.swift */,
-				DEE144D324A29B3600F8B15A /* QuestionDetailView.swift */,
-				DEE144D524A29CA100F8B15A /* TagsChipsView.swift */,
-				DEE144A624A27F7400F8B15A /* Assets.xcassets */,
-				DEE144AB24A27F7400F8B15A /* Info.plist */,
-				DEE144A824A27F7400F8B15A /* Preview Content */,
+				DE82FC1524A3F4B800F46611 /* DiaryApp.swift */,
+				DE82FC2424A3F4F400F46611 /* RootView.swift */,
+				DE82FC1924A3F4B900F46611 /* Assets.xcassets */,
+				DE82FC1E24A3F4B900F46611 /* Info.plist */,
+				DE82FC1B24A3F4B900F46611 /* Preview Content */,
 			);
-			path = Ephemhelp;
+			path = Diary;
 			sourceTree = "<group>";
 		};
-		DEE144A824A27F7400F8B15A /* Preview Content */ = {
+		DE82FC1B24A3F4B900F46611 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DEE144A924A27F7400F8B15A /* Preview Assets.xcassets */,
+				DE82FC1C24A3F4B900F46611 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DEE144DC24A2B1ED00F8B15A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DEE144DD24A2B1ED00F8B15A /* WidgetKit.framework */,
-				DEE144DF24A2B1ED00F8B15A /* SwiftUI.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEE1449E24A27F7200F8B15A /* Ephemhelp */ = {
+		DE82FC1124A3F4B800F46611 /* Diary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE144AE24A27F7400F8B15A /* Build configuration list for PBXNativeTarget "Ephemhelp" */;
+			buildConfigurationList = DE82FC2124A3F4B900F46611 /* Build configuration list for PBXNativeTarget "Diary" */;
 			buildPhases = (
-				DEE1449B24A27F7200F8B15A /* Sources */,
-				DEE1449C24A27F7200F8B15A /* Frameworks */,
-				DEE1449D24A27F7200F8B15A /* Resources */,
-				DEE144F024A2B1EF00F8B15A /* Embed App Extensions */,
+				DE82FC0E24A3F4B800F46611 /* Sources */,
+				DE82FC0F24A3F4B800F46611 /* Frameworks */,
+				DE82FC1024A3F4B800F46611 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ephemhelp;
-			productName = Ephemhelp;
-			productReference = DEE1449F24A27F7200F8B15A /* Ephemhelp.app */;
+			name = Diary;
+			productName = Diary;
+			productReference = DE82FC1224A3F4B800F46611 /* Diary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEE1449724A27F7200F8B15A /* Project object */ = {
+		DE82FC0A24A3F4B800F46611 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					DEE1449E24A27F7200F8B15A = {
+					DE82FC1124A3F4B800F46611 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = DEE1449A24A27F7200F8B15A /* Build configuration list for PBXProject "Ephemhelp" */;
+			buildConfigurationList = DE82FC0D24A3F4B800F46611 /* Build configuration list for PBXProject "Diary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,44 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = DEE1449624A27F7200F8B15A;
-			productRefGroup = DEE144A024A27F7200F8B15A /* Products */;
+			mainGroup = DE82FC0924A3F4B800F46611;
+			productRefGroup = DE82FC1324A3F4B800F46611 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEE1449E24A27F7200F8B15A /* Ephemhelp */,
+				DE82FC1124A3F4B800F46611 /* Diary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DEE1449D24A27F7200F8B15A /* Resources */ = {
+		DE82FC1024A3F4B800F46611 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE144AA24A27F7400F8B15A /* Preview Assets.xcassets in Resources */,
-				DEE144A724A27F7400F8B15A /* Assets.xcassets in Resources */,
+				DE82FC1D24A3F4B900F46611 /* Preview Assets.xcassets in Resources */,
+				DE82FC1A24A3F4B900F46611 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEE1449B24A27F7200F8B15A /* Sources */ = {
+		DE82FC0E24A3F4B800F46611 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE144D424A29B3600F8B15A /* QuestionDetailView.swift in Sources */,
-				DEE144D624A29CA100F8B15A /* TagsChipsView.swift in Sources */,
-				DEE144B224A293E500F8B15A /* QuestionView.swift in Sources */,
-				DEE144A324A27F7200F8B15A /* EphemhelpApp.swift in Sources */,
+				DE82FC1624A3F4B800F46611 /* DiaryApp.swift in Sources */,
+				DE82FC2524A3F4F400F46611 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEE144AC24A27F7400F8B15A /* Debug */ = {
+		DE82FC1F24A3F4B900F46611 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		DEE144AD24A27F7400F8B15A /* Release */ = {
+		DE82FC2024A3F4B900F46611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,44 +262,44 @@
 			};
 			name = Release;
 		};
-		DEE144AF24A27F7400F8B15A /* Debug */ = {
+		DE82FC2224A3F4B900F46611 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ephemhelp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Diary/Preview Content\"";
 				DEVELOPMENT_TEAM = R9F43J8EC6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Ephemhelp/Info.plist;
+				INFOPLIST_FILE = Diary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvavelin.Ephemhelp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvavelin.Diary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DEE144B024A27F7400F8B15A /* Release */ = {
+		DE82FC2324A3F4B900F46611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ephemhelp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Diary/Preview Content\"";
 				DEVELOPMENT_TEAM = R9F43J8EC6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Ephemhelp/Info.plist;
+				INFOPLIST_FILE = Diary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvavelin.Ephemhelp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinvavelin.Diary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEE1449A24A27F7200F8B15A /* Build configuration list for PBXProject "Ephemhelp" */ = {
+		DE82FC0D24A3F4B800F46611 /* Build configuration list for PBXProject "Diary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE144AC24A27F7400F8B15A /* Debug */,
-				DEE144AD24A27F7400F8B15A /* Release */,
+				DE82FC1F24A3F4B900F46611 /* Debug */,
+				DE82FC2024A3F4B900F46611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE144AE24A27F7400F8B15A /* Build configuration list for PBXNativeTarget "Ephemhelp" */ = {
+		DE82FC2124A3F4B900F46611 /* Build configuration list for PBXNativeTarget "Diary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE144AF24A27F7400F8B15A /* Debug */,
-				DEE144B024A27F7400F8B15A /* Release */,
+				DE82FC2224A3F4B900F46611 /* Debug */,
+				DE82FC2324A3F4B900F46611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEE1449724A27F7200F8B15A /* Project object */;
+	rootObject = DE82FC0A24A3F4B800F46611 /* Project object */;
 }
