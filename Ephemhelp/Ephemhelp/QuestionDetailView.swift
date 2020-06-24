@@ -28,15 +28,12 @@ struct QuestionDetailView: View {
             }
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             
-            List(0..<15) { item in
-                NavigationLink(destination: Text("Answer")) {
-                    Text("Answer")
-                }
-                
-                
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                Text("Answer")
             }
         }
         .navigationTitle("Question title")
+        
         
     }
 }

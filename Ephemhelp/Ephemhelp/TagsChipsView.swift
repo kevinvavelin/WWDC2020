@@ -14,6 +14,7 @@ struct TagsChipsView: View {
             .fontWeight(.bold)
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             .background(Color.gray)
+            .frame(height: 22.0)
             .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
             .foregroundColor(.white)
     }

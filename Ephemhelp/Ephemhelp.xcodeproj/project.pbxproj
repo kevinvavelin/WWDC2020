@@ -15,6 +15,19 @@
 		DEE144D624A29CA100F8B15A /* TagsChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE144D524A29CA100F8B15A /* TagsChipsView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DEE144F024A2B1EF00F8B15A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DEE1449F24A27F7200F8B15A /* Ephemhelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ephemhelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE144A224A27F7200F8B15A /* EphemhelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EphemhelpApp.swift; sourceTree = "<group>"; };
@@ -24,6 +37,8 @@
 		DEE144B124A293E500F8B15A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		DEE144D324A29B3600F8B15A /* QuestionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailView.swift; sourceTree = "<group>"; };
 		DEE144D524A29CA100F8B15A /* TagsChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsChipsView.swift; sourceTree = "<group>"; };
+		DEE144DD24A2B1ED00F8B15A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DEE144DF24A2B1ED00F8B15A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				DEE144A124A27F7200F8B15A /* Ephemhelp */,
+				DEE144DC24A2B1ED00F8B15A /* Frameworks */,
 				DEE144A024A27F7200F8B15A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +91,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DEE144DC24A2B1ED00F8B15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE144DD24A2B1ED00F8B15A /* WidgetKit.framework */,
+				DEE144DF24A2B1ED00F8B15A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +110,7 @@
 				DEE1449B24A27F7200F8B15A /* Sources */,
 				DEE1449C24A27F7200F8B15A /* Frameworks */,
 				DEE1449D24A27F7200F8B15A /* Resources */,
+				DEE144F024A2B1EF00F8B15A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
